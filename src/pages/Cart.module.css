@@ -1,0 +1,36 @@
+.cart {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+
+
+}
+.child{
+    height: 320px;
+    width: 250px;
+    border: 1px solid rgb(194, 193, 193);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.button{
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    color: crimson;
+
+}
+
+.circle{
+ color: green;
+}
+
+span{
+    font-size: 80px;
+}
